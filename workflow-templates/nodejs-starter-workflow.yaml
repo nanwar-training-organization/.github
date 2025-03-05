@@ -1,9 +1,9 @@
 name: NodeJS Organization Starter Workflow
 on:
   push:
-    branches: [ $default_branch ]
+    branches: [ $default-branch ]
   pull_request:
-    branches: [ $default_branch ]
+    branches: [ $default-branch ]
 
 jobs:
   build:
